@@ -30,7 +30,7 @@ main {
   overflow: hidden;
 }
 
-/* Yosef */
+/* Raphael */
 /** Player Section **/
 .player-cards {
   margin: 0 auto;
@@ -43,7 +43,7 @@ main {
   text-align: center;
 }
 
-/* Adam */
+/* Johan */
 .player {
   width: 100%;
   height: auto;
@@ -93,7 +93,7 @@ main {
   padding: 1rem;
 }
 
-/* Yosef */
+/* Adam */
 /* Buttons */
 .btn {
   position: absolute;
@@ -123,7 +123,7 @@ main {
   top: 75%;
 }
 
-/* Adam */
+/* Johan */
 /* Buttons on Hover */
 .btn--new:hover {
   padding: 1rem;
@@ -153,4 +153,40 @@ main {
 .player--winner {
   background-color: #F7C566;
   border: 5px solid white;
+}
+
+/* CSS for the button */
+.btn {
+  /* Your button styles */
+  display: inline-block; /* Ensure button is displayed inline */
+  padding: 10px 20px; /* Add padding for better click area */
+  background-color: #E36414;
+  color: white;
+  text-decoration: none; /* Remove default underline for links */
+  border-radius: 5px;
+}
+
+/* CSS for button hover and focus */
+.btn:hover,
+.btn:focus {
+  background-color: #bf2e34; /* Change background color on hover and focus */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Yosef */
+.introHText{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.introText{
+  font-size: 2rem;
+  text-align: center;
+}
+
+#start-game-btn{
+  padding: 3rem;
+  font-size: 2rem;
+  border: solid 0.3rem #9A031E;
+  margin-bottom: 5%;
 }
